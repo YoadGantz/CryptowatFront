@@ -1,0 +1,49 @@
+.row {
+    padding: 0px 10px 0px 20px;
+}
+
+
+.row * {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.hovered {
+    background-color: rgba(0, 21, 206, 0.24);
+}
+
+.short-bid {
+    color: rgb(54, 221, 3);
+}
+
+.bid-weak {
+    color: green;
+}
+
+.short-ask {
+    color: red;
+}
+
+.ask-weak {
+    color: rgb(128, 0, 0);
+}
+
+.flex {
+    display: flex;
+}
+
+.weak {
+    color: rgb(126, 126, 126);
+}
+
+.row div {
+    width: 33%
+}
+
+.row div:first-child {
+    text-align: start;
+}
+
+.row div:last-child {
+    text-align: end;
+}
